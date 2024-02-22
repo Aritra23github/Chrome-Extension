@@ -10,7 +10,6 @@ function App() {
   const [width, setWidth] = useState(500);
   const [height, setHeight] = useState(300);
   const [isDrawing, setIsDrawing] = useState(false);
-  const [finalDownloadedImage, setFinalDownloadedImage] = useState(null);
 
   const captureScreen = async () => {
     // await chrome.tabs.captureVisibleTab(null, { format: "png" },function (screenshotDataUrl){
